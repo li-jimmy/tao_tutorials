@@ -14,9 +14,9 @@ train:
   activation_checkpoint: True
 dataset:
   train_data_sources:
-    - image_dir: /data/raw-data/train2017/
-      json_file: /data/odvg/annotations/instances_train2017_odvg.jsonl
-      label_map: /data/odvg/annotations/instances_train2017_odvg_labelmap.json
+    - image_dir: /data/raw-data/val2017/
+      json_file: /data/odvg/annotations/instances_val2017_odvg.jsonl
+      label_map: /data/odvg/annotations/instances_val2017_odvg_labelmap.json
   val_data_sources:
     image_dir: /data/raw-data/val2017/
     json_file: /data/odvg/annotations/instances_val2017_remapped.json
